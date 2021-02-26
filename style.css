@@ -72,6 +72,17 @@ img {
   clear: both;
 }
 
+/*
+
+ __i
+|---|    
+|[_]|    
+|:::|    for Mobile
+|:::|    
+`\   \   
+  \_=_\ 
+
+*/
 @media screen and (max-width: 420px){
   .container{
     width: 420px;
