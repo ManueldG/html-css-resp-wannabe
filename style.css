@@ -112,3 +112,54 @@ img {
       margin: 80px auto 0;
     }
 }
+
+/*
+
++---------------------------+
+|  _______________________  |
+| /               ,--,    \ |
+| |         _ ___/ /\|    | |
+| |     ,;`( )__, )  ~    | |
+| |    // o//   '--;      | |
+| \    ' o \     |        / |
+|  ---ooo-----------------  |
++---------------------------+
+
+
+*/
+
+@media screen and (max-width: 600px) and (min-width: 420px){
+
+  body{
+    background-color:red;
+  }
+
+  .container{
+    width: 600px;
+  } 
+
+  .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+#lezioni .row > .left,
+#lezioni .row > .right{
+    width: 30%;
+    margin: 1rem auto;
+  }
+
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right{
+      width: 25%;
+      margin: 1rem auto;
+    }
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third{
+      width: 60%;
+      margin: 80px auto 0;
+    }
+}
